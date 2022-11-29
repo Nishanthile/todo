@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: blueviolet;
+}
+
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.child-div {
+
+    margin: 3rem 0;
+
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.todo-icon {
+    width: 8rem;
+    margin: 1rem auto;
+
+}
+
+.caption {
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: white;
+}
+
+.input {
+    width: 100%;
+    margin: 3rem auto;
+    height: 3rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.add-items {
+    position: relative;
+}
+
+.add {
+
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 35%;
+    left: 90%;
+    color: red;
+    cursor: pointer;
+}
+
+.text-field {
+    height: 100%;
+    width: 85%;
+    border: none;
+    padding: 10px;
+}
+
+.text-field:focus {
+    outline: none;
+}
+
+.each-item {
+    background-color: white;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    margin: 5px 0px;
+   
+}
+
+.crud {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.edit {
+    color: green;
+    cursor: pointer;
+}
+.edit:hover{
+    color: lightgreen;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
+.delete:hover{
+  color: lightcoral;
+}
+.show-items{
+    width: 19rem;
+    display: inline-block;
+}
+.input-flex{
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+}
